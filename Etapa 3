@@ -1,0 +1,4 @@
+mkdir relatorios
+mv funcionarios.txt relatorios
+cd relatorios
+cp funcionarios.txt bkp
