@@ -1,0 +1,5 @@
+grep -E "\-\-\-" funcionarios.txt > invalidos.txt
+mkdir -p relatorios/problemas
+mv invalidos.txt relatorios/problemas
+cd relatorios/problemas
+cp invalidos.txt bkp
